@@ -1,0 +1,14 @@
+{
+  "DFIntTaskSchedulerTargetFps": "240",
+  "FFlagGraphicsDisableFrameRateCap": "True",
+  "DFFlagDisableDPIScale": "True",
+  "DFFlagDisableVSync": "True",
+  "FFlagHandleAltEnterFullscreenManually": "False",
+  "FIntDebugForceMSAASamples": "1",
+  "FFlagDisablePostFx": "True",
+  "FIntRenderShadowIntensity": "0",
+  "FFlagUserDisableCoreGuiAutoAdjust": "True",
+  "FFlagFixGraphicsQuality": "True",
+  "FIntRobloxGuiBlurIntensity": "0",
+  "FStringCredit": "Safe Low Mode | Kai Optimizer"
+}

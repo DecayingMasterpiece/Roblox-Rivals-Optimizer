@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Roblox Rivals Optimizer ✨ FPS Unlocker & Low Ping Suite | By Kaiser</title>
+  
+  <!-- SEO & Social Sharing Metadata -->
+  <meta name="description" content="Unlock maximum FPS, reduce input lag, and stabilize ping in Roblox Rivals with Kaiser's free, 1-click open-source PC optimizer suite.">
+  <meta name="author" content="Kaiser Everhart">
+  <meta name="keywords" content="Roblox Rivals, Rivals Optimizer, Roblox FPS unlocker, Roblox ping fix, fast flags, Kaiser Everhart">
+  <meta property="og:title" content="Roblox Rivals Optimizer ✨ FPS Unlocker & Low Ping Suite">
+  <meta property="og:description" content="Everyone suffers from low FPS and high ping... today I'm gonna fix that for you in just one click! 100% open source & safe.">
+  <meta property="og:image" content="./assets/logo.png">
+  <meta property="og:type" content="website">
+  <link rel="icon" type="image/png" href="./assets/logo.png">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Confetti Canvas -->
+  <canvas id="confetti-canvas"></canvas>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <div class="nav-inner">
+      <a href="#" class="nav-brand">
+        <img src="./assets/logo.png" alt="Kaiser Everhart Logo" class="nav-avatar">
+        <div class="brand-text">
+          <h1>Kaiser Optimizer <span class="brand-tag">v1.0</span></h1>
+        </div>
+      </a>
+      <div class="nav-links">
+        <a href="https://www.youtube.com/@KaiserEverhart-Adaptation" target="_blank" rel="noopener noreferrer" class="nav-btn nav-btn-secondary">
+          <span style="color: #FF0000;">▶</span> YouTube
+        </a>
+        <a href="https://github.com/toufiqbd4200-sketch/Roblox-Rivals-Optimizer" target="_blank" rel="noopener noreferrer" class="nav-btn nav-btn-secondary">
+          <span>📦</span> GitHub
+        </a>
+        <a href="#download" class="nav-btn nav-btn-primary">
+          <span>⚡</span> Get Optimizer
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container">
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-dialogue-bubble">
+        <span class="dialogue-icon">🌸</span>
+        <span class="dialogue-text">"Everyone suffers from low FPS and high ping... today I'm gonna fix that for you with just 1 click!"</span>
+      </div>
+
+      <div class="hero-avatar-wrapper">
+        <img src="./assets/logo.png" alt="Kaiser Avatar" class="hero-avatar">
+        <div class="avatar-badge">⚡</div>
+      </div>
+
+      <h1 class="hero-title">
+        Roblox Rivals <span class="gradient-text">Optimizer</span>
+      </h1>
+
+      <p class="hero-description">
+        Say goodbye to stuttering, frame drops, and network ping spikes. 
+        Follow along with the tutorial video, unlock the utility, and experience buttery-smooth 
+        competitive gameplay in <span class="hero-highlight">Roblox Rivals</span>!
+      </p>
+
+      <div class="hero-badges">
+        <div class="badge-item">
+          <span class="badge-dot"></span>
+          <span>Universal 1-Click Optimization</span>
+        </div>
+        <div class="badge-item">
+          <span class="badge-dot"></span>
+          <span>Nagle's Packet Latency Fix</span>
+        </div>
+        <div class="badge-item">
+          <span class="badge-dot"></span>
+          <span>Weekly Deep Junk Cleaner</span>
+        </div>
+        <div class="badge-item">
+          <span class="badge-dot"></span>
+          <span>100% Anti-Cheat Safe</span>
+        </div>
+      </div>
+
+      <div>
+        <a href="#download" class="scroll-indicator">
+          <span>👇 Scroll down to unlock your download</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- Safety & Open Source Guarantee Banner -->
+    <section class="safety-banner">
+      <div class="safety-icon-box">🛡️</div>
+      <div class="safety-content">
+        <h3>100% Open Source &amp; Virus-Free Guarantee</h3>
+        <p>
+          We know downloading tools from the internet can be scary! Kaiser Optimizer contains zero spyware, zero telemetry, and zero memory injections. Every single script is completely open source so you can inspect the code yourself.
+        </p>
+      </div>
+      <div class="safety-actions">
+        <a href="https://github.com/toufiqbd4200-sketch/Roblox-Rivals-Optimizer" target="_blank" rel="noopener noreferrer" class="nav-btn nav-btn-secondary">
+          <span>🔍</span> View Source Code
+        </a>
+      </div>
+    </section>
+
+    <!-- Interactive Unlock & Download Section -->
+    <section id="download" class="download-section">
+      <div class="unlock-card">
+        <div class="card-cute-header">
+          <span class="card-pill">Unlock Gateway</span>
+          <h2>Unlock Your Free Download ✨</h2>
+          <p>Support the channel to instantly unlock the direct download link — no shady ads or redirections!</p>
+        </div>
+
+        <div class="steps-grid">
+          <!-- Step 1 -->
+          <div class="step-box" id="step-1-box">
+            <div class="step-top">
+              <span class="step-number">STEP 1</span>
+              <div class="step-status">✕</div>
+            </div>
+            <h4>Subscribe on YouTube</h4>
+            <p>Subscribe to Kaiser Everhart on YouTube with instant confirmation.</p>
+            <button id="btn-subscribe" class="step-btn btn-yt-sub">
+              <span>🔔</span>
+              <span>Subscribe to @KaiserEverhart</span>
+            </button>
+          </div>
+
+          <!-- Step 2 -->
+          <div class="step-box" id="step-2-box">
+            <div class="step-top">
+              <span class="step-number">STEP 2</span>
+              <div class="step-status">✕</div>
+            </div>
+            <h4>Like the Tutorial Video</h4>
+            <p>Leave a like on the tutorial video to support more free optimization tools.</p>
+            <button id="btn-like" class="step-btn btn-yt-like">
+              <span>👍</span>
+              <span>Watch &amp; Like Video</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Download Action Box -->
+        <div class="download-gate-box" id="download-gate">
+          <div class="gate-status-text" id="gate-status-text">
+            <span>🔒</span>
+            <span>Complete Step 1 &amp; Step 2 above to unlock your download!</span>
+          </div>
+
+          <a id="btn-download" class="btn-download-final locked" href="#" disabled>
+            <span>🔒</span>
+            <span>Download Locked</span>
+          </a>
+
+          <p class="gate-subtext">
+            Direct download package: <strong>Kai_Optimizer.zip</strong> (935 KB, zero ads) • 
+            <a href="https://github.com/toufiqbd4200-sketch/Roblox-Rivals-Optimizer" target="_blank" rel="noopener noreferrer" class="gate-repo-link">Inspect on GitHub</a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Key Features Section -->
+    <section class="features-section">
+      <div class="section-header">
+        <h2>What Does the Optimizer Do? 🚀</h2>
+        <p>Built cleanly and orthogonally with native Windows APIs and safe Roblox FastFlags</p>
+      </div>
+
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon-circle">⚡</div>
+          <h3>Universal 1-Click Mode</h3>
+          <p>
+            Automatically analyzes your CPU threads, GPU model, and RAM capacity to apply the perfect high-performance profile without breaking anything.
+          </p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon-circle">📶</div>
+          <h3>Zero Packet Delay (Nagle's Fix)</h3>
+          <p>
+            Configures TCP No-Delay and ACK frequency in the Windows registry to eliminate packet buffering, lowering your ping in fast-paced Rivals duels.
+          </p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon-circle">🧼</div>
+          <h3>Weekly Deep Junk Cleaner</h3>
+          <p>
+            Safely removes temporary clutter, Prefetch caches, and DirectX Shader buffers to keep your system light, responsive, and stutter-free.
+          </p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon-circle">🎯</div>
+          <h3>Curated Rivals FastFlags</h3>
+          <p>
+            Pre-tuned client flags that unlock your framerate limit, reduce input delay, and optimize particle rendering without graphical degradation.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- How to Use / Install Guide -->
+    <section class="guide-section">
+      <div class="section-header">
+        <h2>How to Install in 3 Easy Steps 🌸</h2>
+        <p>Super simple, no technical knowledge needed!</p>
+      </div>
+
+      <div class="guide-timeline">
+        <div class="guide-step">
+          <div class="guide-step-num">1</div>
+          <h3>Download &amp; Extract</h3>
+          <p>Unlock the download above and extract <strong>Kai_Optimizer.zip</strong> to a folder on your PC.</p>
+        </div>
+
+        <div class="guide-step">
+          <div class="guide-step-num">2</div>
+          <h3>Run Launch.bat</h3>
+          <p>Right-click <strong>Launch.bat</strong> and run it. The cute dark/pink optimizer interface will open instantly.</p>
+        </div>
+
+        <div class="guide-step">
+          <div class="guide-step-num">3</div>
+          <h3>1-Click Optimize</h3>
+          <p>Click "Start Quick Optimization" or customize individual steps, then launch Roblox Rivals and enjoy high FPS!</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-brand">
+        <img src="./assets/logo.png" alt="Kaiser Avatar" class="footer-avatar">
+        <span>Kaiser Everhart • Roblox Rivals Optimizer</span>
+      </div>
+      <div class="footer-links">
+        <a href="https://www.youtube.com/@KaiserEverhart-Adaptation" target="_blank" rel="noopener noreferrer" class="footer-link">YouTube Channel</a>
+        <a href="https://github.com/toufiqbd4200-sketch/Roblox-Rivals-Optimizer" target="_blank" rel="noopener noreferrer" class="footer-link">GitHub Repository</a>
+        <a href="#download" class="footer-link">Download</a>
+      </div>
+      <p class="footer-disclaimer">
+        Roblox is a registered trademark of Roblox Corporation. This optimizer is an independent open-source utility and is not affiliated with or endorsed by Roblox Corporation.
+      </p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="app.js"></script>
+</body>
+</html>
