@@ -12,11 +12,11 @@ const SITE_CONFIG = {
   channelUrl: "https://www.youtube.com/@KaiserEverhart-Adaptation",
   subscribeUrl: "https://www.youtube.com/@KaiserEverhart-Adaptation?sub_confirmation=1",
   
-  // Tutorial Video (Easily updated once video goes live!)
-  tutorialVideoUrl: "https://www.youtube.com/@KaiserEverhart-Adaptation/videos",
+  // Tutorial Video
+  tutorialVideoUrl: "https://youtu.be/haOdSePyE74",
   
   // GitHub Open-Source Repository Link
-  githubRepoUrl: "https://github.com/toufiqbd4200-sketch/Roblox-Rivals-Optimizer",
+  githubRepoUrl: "https://github.com/DecayingMasterpiece/Roblox-Rivals-Optimizer",
   
   // Download Artifact
   downloadFilename: "Kai_Optimizer.zip",

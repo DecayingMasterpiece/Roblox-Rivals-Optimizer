@@ -22,7 +22,7 @@
 
 ## 🚀 Quick Start Guide
 
-1. Download **`Kai_Optimizer.zip`** from the [official website](https://toufiqbd4200-sketch.github.io/Roblox-Rivals-Optimizer/) or from the repository releases.
+1. Download **`Kai_Optimizer.zip`** from the [official website](https://decayingmasterpiece.github.io/Roblox-Rivals-Optimizer/) or from the repository releases.
 2. Extract the ZIP folder to any directory (e.g. your Desktop or Downloads).
 3. Right-click **`Launch.bat`** and click **Run as administrator** (if prompted).
 4. Select **Simple Mode** and click **"Start Quick Optimization"**, or customize individual steps in **Advanced Mode**.
