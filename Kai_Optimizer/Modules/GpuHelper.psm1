@@ -1,4 +1,4 @@
-﻿# ==============================================================================
+# ==============================================================================
 # Kai Optimizer - GPU & Driver Helper Module
 # Detects GPU hardware safely (NVIDIA vs AMD/Intel),
 # launches NVIDIA Control Panel, and redirects viewers to the follow-along YouTube guide.
@@ -78,10 +78,10 @@ function Open-KaiNvidiaVideoGuide {
         Opens Kaiser's YouTube video guide for NVIDIA 3D settings follow-along.
     #>
     param(
-        [string]$VideoUrl = "https://www.youtube.com/@KaiserEverhart-Adaptation"
+        [string]$VideoUrl = "https://www.youtube.com/watch?v=haOdSePyE74&t=330s"
     )
 
-    Write-KaiLog "Opening NVIDIA 3D Best Settings video guide on YouTube..." -Level INFO
+    Write-KaiLog "Opening NVIDIA 3D Best Settings video guide on YouTube (5:30)..." -Level INFO
     Start-Process -FilePath $VideoUrl
 }
 

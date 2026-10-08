@@ -1,4 +1,4 @@
-﻿# ==============================================================================
+# ==============================================================================
 # Kai Optimizer - Network & Wi-Fi Module
 # Eliminates Nagle's algorithm delay, mitigates 60s Wi-Fi background ping spikes,
 # switches low-latency DNS (Cloudflare / Google), flushes DNS caches,
@@ -133,13 +133,13 @@ function Invoke-KaiFlushDnsCache {
 function Open-KaiEthernetVideoGuide {
     <#
     .SYNOPSIS
-        Opens Kaiser's YouTube video guide for Ethernet adapter optimizations.
+        Opens Kaiser's YouTube video guide for Ethernet adapter & ping optimizations.
     #>
     param(
-        [string]$VideoUrl = "https://www.youtube.com/@KaiserEverhart-Adaptation"
+        [string]$VideoUrl = "https://www.youtube.com/watch?v=haOdSePyE74&t=220s"
     )
 
-    Write-KaiLog "Opening Ethernet & Network Optimization video guide on YouTube..." -Level INFO
+    Write-KaiLog "Opening Ethernet & Network Optimization video guide on YouTube (3:40)..." -Level INFO
     Start-Process -FilePath $VideoUrl
 }
 

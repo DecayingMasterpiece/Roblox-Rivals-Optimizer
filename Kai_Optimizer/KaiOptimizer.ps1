@@ -378,8 +378,8 @@ $BtnFlushDns.Add_Click({
 })
 
 $BtnWatchEthernetVideo.Add_Click({
-    Open-KaiEthernetVideoGuide
-    Add-UiLog "Opening Ethernet & Ping video guide on YouTube..." "INFO"
+    Open-KaiEthernetVideoGuide -VideoUrl "https://www.youtube.com/watch?v=haOdSePyE74&t=220s"
+    Add-UiLog "Opening Ethernet & Ping video guide on YouTube (3:40)..." "INFO"
 })
 
 # ------------------------------------------------------------------------------
@@ -391,8 +391,8 @@ $BtnOpenNvcpl.Add_Click({
 })
 
 $BtnWatchNvidiaVideo.Add_Click({
-    Open-KaiNvidiaVideoGuide
-    Add-UiLog "Opening NVIDIA 3D Best Settings video guide on YouTube..." "INFO"
+    Open-KaiNvidiaVideoGuide -VideoUrl "https://www.youtube.com/watch?v=haOdSePyE74&t=330s"
+    Add-UiLog "Opening NVIDIA 3D Best Settings video guide on YouTube (5:30)..." "INFO"
 })
 
 # ------------------------------------------------------------------------------
